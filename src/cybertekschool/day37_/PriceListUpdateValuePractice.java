@@ -42,7 +42,7 @@ public class PriceListUpdateValuePractice {
         System.out.println("AFTER 40% OFF second item value is " + priceList.get(1));
 
         // DOUBLE THE VALUE OF EACH AND EVERY PRICE IN THE LIST :
-        // THIS IS HOW WE DO IT FOR ONE , NOW WE DO IT FOR ALL OF THEM BY REPLACING THE IDEX WITH VARIABLE
+        // THIS IS HOW WE DO IT FOR ONE , NOW WE DO IT FOR ALL OF THEM BY REPLACING THE InDEX WITH VARIABLE
 
         // in order to update an item we need an index and new value
         // in order to update the first value index will be 0

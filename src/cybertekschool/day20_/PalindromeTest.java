@@ -30,5 +30,11 @@ public class PalindromeTest {
         }
 
 
+        name=name.replace(" ", "");
+        reversedName=reversedName.replace(" ", "");
+
+        System.out.println(name.equalsIgnoreCase(reversedName));
+
+
     }
 }

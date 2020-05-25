@@ -31,6 +31,9 @@ public class TeamMateListPractice {
         teamMates.add("Support Team");
 
 
+        System.out.println();
+        System.out.println("-----------ANSWERS---------");
+        System.out.println();
         System.out.println("teamMates = " + teamMates);
 
         // first item
@@ -83,17 +86,25 @@ public class TeamMateListPractice {
 
         }
         System.out.println("result = " + result);
+
+
         //TODO : Remove the last Dash
+
+        result=result.substring(0, result.lastIndexOf('-'));
+        System.out.println("result = " + result);
 
         //How can we turn a List into a String and Store it and manipulate it ?
         // Any collection type including ArrayList
         // has toString method to show what's inside and return it as String
         // TIP : Do not use this to manipulate ArrayList items
+
         String lstToString = teamMates.toString();
+        System.out.println("lstToString before replacement = " + lstToString);
+        System.out.println();
         System.out.println("lstToString after replacing  = \n\t"
-                + lstToString.replace(", ", "-")
-                .replace("[", "")
+                + lstToString.replace(", ", "-").replace("[", "")
                 .replace("]", ""));
+
 
 
     }

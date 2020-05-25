@@ -61,6 +61,7 @@ public class MethodWithArrayListParameter {
      * @param b
      */
     public static void printByte(byte b) {
+
         System.out.println("You passed byte value = " + b);
     }
 

@@ -13,6 +13,7 @@ public class ListPracticeWithLoop {
          * */
 
         List<Integer> nums = new ArrayList<>();
+
         for (int number = 1; number <= 100; number++) {
             //System.out.println("i = " + i);
             nums.add(number);

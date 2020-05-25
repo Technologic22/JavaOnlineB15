@@ -31,7 +31,7 @@ public class ArrayList_LoopPractice {
             }
 
         }
-        //System.out.println("longestName = " + longestName);
+        System.out.println("longestName = " + longestName);
 
         // How do I get the concatenation of all longest words if there are more than one
         // first find out the longest word , and get the character count

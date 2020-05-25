@@ -12,7 +12,7 @@ public class MethodWithArrayListAsReturnType {
 
 
         List<Integer> blablaList = getListFrom1ToFinalNumber(25);
-        ;
+
         System.out.println("blablaList = " + blablaList);
 
     }

@@ -2,7 +2,7 @@ package cybertekschool.day29_;
 
 import java.util.Arrays;
 
-public class FillingUpArrayEvenNumber {
+public class FillingUpArrayValueEvenNumber {
     public static void main(String[] args) {
 
 

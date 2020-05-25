@@ -6,7 +6,7 @@ package cybertekschool.day26;
 
         public static void main(String[] args) {
 
-            String students = "Abbos, Zulyar,Zhibek,Hasan,Muge, Orhan,Susan";
+            String students = "Abbos, Zulyar, Zhibek, Hasan, Muge, Orhan, Susan";
 
             students = students.replace(" ", "");
             System.out.println("students = " + students);
