@@ -7,7 +7,7 @@ public class Train extends Vehicle{
 
     int wagonCount;
     public void makeChooChooSound(){
-        System.out.println("Choo Chooo");
+        System.out.println("Choo Chooo choooo wooooo");
     }
 
     public static void main(String[] args) {
