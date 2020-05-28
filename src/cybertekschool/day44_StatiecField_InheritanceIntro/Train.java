@@ -6,9 +6,6 @@ public class Train extends Vehicle{
     //constructors not inherited
 
     int wagonCount;
-    public void makeChooChooSound(){
-        System.out.println("Choo Chooo choooo wooooo");
-    }
 
     public static void main(String[] args) {
         Train t1= new Train();
@@ -17,10 +14,16 @@ public class Train extends Vehicle{
         //these attributes from Vehicle class
 
         t1.make="Thomas";
-        t1.year= 1999;
+       // t1.year= 1999; Private is not inherited!!!
+        System.out.println(t1.getYear());
         //calling the method from Vehicle class
         t1.start();
         t1.goForward();
-        
     }
+
+
+    public void makeChooChooSound(){
+        System.out.println("Choo Chooo choooo wooooo");
+    }
+
 }
