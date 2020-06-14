@@ -20,9 +20,11 @@ public class SavingAccount extends BankAccount{
 
     public static void main(String[] args) {
         //Bad idea to have main here...
-        SavingAccount s1=new SavingAccount("Muhamed", 1287687, 4000,3.5);
+        SavingAccount s1=new SavingAccount("Muhamed", 1287687, 4000,0.042);
         System.out.println("s1 = " + s1.toString());
         s1.withdraw(1000);
+        System.out.println("s1 = " + s1);
+        s1.deposit(100);
         System.out.println("s1 = " + s1);
     }
 
@@ -34,10 +36,21 @@ public class SavingAccount extends BankAccount{
         //balance-=amount ;
         //taking away 30 ovver what U withdraw
         //balance=balance-amount-30;
-        balance-=amount;
-        balance-=30;
+//        balance-=amount;
+//        balance-=30;
+        super.withdraw(amount);
+        super.withdraw(30);
+
     }
 
+    @Override
+    public void deposit(int amount){
+        //balance=amount+(amount*interestRate);
+        //calculating the interest rate and casting to int variable
+        //because deposit method accept int data type not double
+        int actualAmount=(int)(amount+amount*interestRate);
+        super.deposit(actualAmount);
+    }
 
     @Override //ITS OPTIONAL annotation, ONCE BEING USED, IT WILLNEFORCE overriding rule
               //if any rule doent match it will not even compile
