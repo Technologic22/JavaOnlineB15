@@ -6,7 +6,7 @@ public class AtTheBank {
         acc1.deposit(100);
         System.out.println("acc1 = " + acc1);
         acc1.deposit(4500);
-        System.out.println("acc1 = " + acc1);
+        System.out.println("acc1 = " + acc1); //additional +200 by requirement
         acc1.withdraw(1500);
         System.out.println("acc1 = " + acc1);
 
