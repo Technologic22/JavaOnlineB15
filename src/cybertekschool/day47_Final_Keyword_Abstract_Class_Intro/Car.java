@@ -11,6 +11,7 @@ public abstract class Car {
     String brand;
 
     //-- abstract class can have abstract method
+    //-- ONLY ABSTRACT  CLASS CAN HAVE ABSTRACT METHOD
     //-- it has abstract keyword
     //--doesnt have a body, doesnt have {}
     //-- it ends with ;
@@ -18,6 +19,9 @@ public abstract class Car {
     //IN SUB CLASS
 
     public abstract void start();
+    public abstract void goForward();
+    public abstract void goBackward();
+    public abstract void turn(String direction);
 
     //add abstract void methods:
     //goForward
