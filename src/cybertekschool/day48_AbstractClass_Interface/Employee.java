@@ -15,5 +15,7 @@ public abstract class Employee {
     }
     public abstract void calculateAnnualSalary();
 
+    //--this is optional, why we put this here?!
+    //-- to enforce sub class to provide toString method
     public abstract String toString();
 }
