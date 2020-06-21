@@ -19,6 +19,8 @@ public interface Edible {
     //--override it according to their own requirement
     //--ONLY EXIST IN INTERFACE
     //-- 'DEFAULT' Keyword NOT A ACCESS MODIFIER
+    //--It MUST HAVE BODY
+    //--Implicitly method is PUBLIC if U dont explicitly declare it!
     public default void digest(){
         System.out.println("U implement the code yourself");
     }
