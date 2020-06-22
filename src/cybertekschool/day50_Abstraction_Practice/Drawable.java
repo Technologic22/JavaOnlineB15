@@ -1,4 +1,4 @@
-package cybertekschool.day49_Interface_Practice;
+package cybertekschool.day50_Abstraction_Practice;
 
 public interface Drawable {
 

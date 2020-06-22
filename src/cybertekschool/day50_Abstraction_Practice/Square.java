@@ -1,8 +1,12 @@
-package cybertekschool.day49_Interface_Practice;
+package cybertekschool.day50_Abstraction_Practice;
 
 public class Square extends Shape implements Drawable{
 
     int length;
+
+    public Square(String name) {
+        super(name);
+    }
 
     @Override
     public void calculateArea() {
