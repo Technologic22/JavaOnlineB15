@@ -9,5 +9,13 @@ public class Main {
         System.out.println("s1 with area calculation "+s1);
         s1.draw();
 
+        System.out.println("------------------------------------------");
+
+        Circle c1=new Circle("My nice", 7);
+        System.out.println("c1 before area calculation "+c1);
+        c1.calculateArea();
+        System.out.println("c1 with area calculation "+c1);
+        c1.draw();
+
     }
 }
