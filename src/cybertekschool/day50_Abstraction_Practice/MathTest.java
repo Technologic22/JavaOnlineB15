@@ -1,5 +1,8 @@
 package cybertekschool.day50_Abstraction_Practice;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class MathTest {
 
     public static void main(String[] args) {
@@ -46,7 +49,15 @@ public class MathTest {
         System.out.println("d3 = " + d3);
 
 
+        System.out.println("+++++==========================++++++");
 
+
+        List<Question>allTestQuestions= Arrays.asList(a1, s1, s2, m1, d1, d2, d3);
+
+        for (Question eachAnswer: allTestQuestions
+             ) {
+            System.out.println("eachAnswer = " + eachAnswer);
+        }
 
     }
 }
