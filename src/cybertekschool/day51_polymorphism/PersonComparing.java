@@ -2,6 +2,7 @@ package cybertekschool.day51_polymorphism;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class PersonComparing {
@@ -40,7 +41,10 @@ public class PersonComparing {
         lst.add(new Person("Shatlyk", 13));
         System.out.println("lst = " + lst);
 
-     //   Collections.sort(lst);
+     //Anything we sort must be a Type Of Comparable
+
+        Collections.sort(lst);
+        System.out.println("lst = " + lst);
 
 
 
