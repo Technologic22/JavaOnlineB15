@@ -27,7 +27,7 @@ public class Person implements Comparable<Person> {
 //
 //    }
 
-    //Method modified to make natural order comparing by name
+    //Method modified to make natural order comparing by name using 2nd Character
     @Override
     public int compareTo( Person otherPerson) {
         if (this.name.charAt(1) > otherPerson.name.charAt(1)) {
