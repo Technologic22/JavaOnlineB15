@@ -1,6 +1,6 @@
 package cybertekschool.day52_Polymorphism_practice.warmup;
 
-public class Account implements Transferable{
+public class Account implements Transferable, Comparable<Account>{
 
     protected String name;
     private int balance;
@@ -9,6 +9,20 @@ public class Account implements Transferable{
         this.name = name;
         this.balance = balance;
     }
+
+    //add logic to compare by amount/balance
+    @Override
+    public int compareTo(Account otherAccount) {
+
+        if (this.balance>otherAccount.balance){
+            return 1;
+        }else if (this.balance<otherAccount.balance){
+            return -1;
+        }else {
+            return 0;
+        }
+    }
+
 
     @Override
     public void transferAll(Account otherAccount) {
@@ -48,15 +62,17 @@ public class Account implements Transferable{
 
     public boolean isPalindrome(){
         //1st store is into temp and replace all the space and make it lowercase
+        // WE DO NOT WANT TO ACTUALLY CHANGE THE NAME OF THE ACCOUNT SO WE JUST WORK WITH  ITS COPY
         String nameCopy = this.name.toLowerCase().replace(" ", "");
         // we need to reverse the value then check whether they r still same string or not
         String reverseResult = "";
         for (int i = nameCopy.length()-1; i >=0 ; i--) {
                 reverseResult +=nameCopy.charAt(i);
         }
-
+        System.out.println(" Reverse Result is: "+reverseResult);
         return nameCopy.equals(reverseResult);
     }
+
 
 }
 
@@ -93,4 +109,4 @@ public class Account implements Transferable{
 //        *
 //        *   to honor Palindrome day ,
 //        *   add a method inside Account class called
-//*          isPalindrome return true if account name is palidrome (case and space should not matter)
+//*          isPalindrome return true if account name is palindrome (case and space should not matter)

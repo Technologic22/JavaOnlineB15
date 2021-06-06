@@ -20,10 +20,10 @@ public class BankTest {
         a2.transferAll(a1);
         System.out.println("a1 after 2nd transfer =  " + a1);
         System.out.println("a2 after 2nd transfer =  " + a2);
-//
-//        System.out.println("Does a1 has palindrome name : " + a1.isPalindrome());
-//        System.out.println("Does a2 has palindrome name : " + a2.isPalindrome());
-//
+
+        System.out.println("Does a1 has palindrome name : " + a1.isPalindrome());
+        System.out.println("Does a2 has palindrome name : " + a2.isPalindrome());
+
 
     }
 }
