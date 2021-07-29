@@ -1,14 +1,14 @@
 package cybertekschool.day52_Polymorphism_practice.polymorphism;
 
-public class ShapePolymnorphism {
+public class ShapePolymorphism {
 
     public static void main(String[] args) {
 
 
         Circle s1 = new Circle("penny", 5);
- //       Shape s1 = new Circle("penny", 5);
-   //     Object s1 = new Circle("penny", 5);
-  //      Drawable s1 = new Circle("penny", 5);
+            //       Shape s1 = new Circle("penny", 5);
+            //     Object s1 = new Circle("penny", 5);
+              //      Drawable s1 = new Circle("penny", 5);
 
         //  ONLY THE REFERENCE TYPE DECIDES WHAT u CAN ACCESS WITH THAT VARIABLE
         // As in Object as reference type, the more general reference type is, the less method has specific action
@@ -23,7 +23,15 @@ public class ShapePolymnorphism {
 
         System.out.println(s1.getClass().getSimpleName());
 
+    }
+
+    // create a method thgat accept any shape and print out the calculated area
+
+        public static void printAnyShapeArea (Shape anyShape){
+
 
     }
+
+
 }
 
