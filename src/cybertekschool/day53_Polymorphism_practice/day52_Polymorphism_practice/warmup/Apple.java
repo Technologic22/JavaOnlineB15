@@ -13,7 +13,7 @@ public class Apple extends Fruit {
     @Override
     public void getDigested() {
         System.out.println(type+" apple is "+color+" color and it has "+
-                taste+ " taste when U digest");
+                taste+ " taste when U digest it");
     }
 
     @Override
