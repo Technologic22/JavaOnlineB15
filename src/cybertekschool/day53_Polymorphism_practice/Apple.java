@@ -1,4 +1,4 @@
-package cybertekschool.day53_Polymorphism_practice.day52_Polymorphism_practice.warmup;
+package cybertekschool.day53_Polymorphism_practice;
 
 public class Apple extends Fruit {
 
