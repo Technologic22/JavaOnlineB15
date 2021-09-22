@@ -23,7 +23,7 @@ public class AnimalShow {
         //it can do only things that Object can do
         //i.e. toString, hasCode & others
         Object o1=d1;
-       //  o1.speak();   when we hoiver over it says 'Cast qualifier'
+       //  o1.speak();   when we hover over it says 'Cast qualifier'
         o1.toString();
 
         //refer a dog as an IndoorPet
