@@ -5,8 +5,10 @@ public class Automation {
     public static void main(String[] args) {
 
         WebDriver c1 = new ChromeDriver();
-        ChromeDriver c2 = new ChromeDriver();
-        System.out.println("-----Running on Chrome-----");
+        ChromeDriver c2 = null;
+
+
+                System.out.println("-----Running on Chrome-----");
                                             // this is a polymorphism,
                                             // Chromedriver is an implementing class,
                                                // Webdriover is an interface
@@ -21,6 +23,7 @@ public class Automation {
         c1.navigateTo("www.cybertekschool.com");
         c1.maximize();
         c1.closeBrowser();
+
 
     }
 }
