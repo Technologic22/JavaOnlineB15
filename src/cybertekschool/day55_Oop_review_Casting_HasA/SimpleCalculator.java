@@ -1,10 +1,10 @@
 package cybertekschool.day55_Oop_review_Casting_HasA;
 
-public class simpleCalculator {
+public class SimpleCalculator {
 
    private int result;
 
-    public simpleCalculator minusNum(int num){
+    public SimpleCalculator minusNum(int num){
         this.result-=num;
         return this;
     }
@@ -20,7 +20,7 @@ public class simpleCalculator {
    //'this' represents the current object here: c1
    //If we change return type to current object then:
 
-    public simpleCalculator addNum(int num){
+    public SimpleCalculator addNum(int num){
         //modify current object attribute
         this.result+=num;
         //below code will create new object different than the current object

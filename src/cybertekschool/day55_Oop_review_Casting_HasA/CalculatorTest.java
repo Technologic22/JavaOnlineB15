@@ -4,7 +4,7 @@ public class CalculatorTest {
 
     public static void main(String[] args) {
 
-        Calculator c1 = new Calculator();
+        SimpleCalculator c1 = new SimpleCalculator();
         c1.addNum(50);
         c1.addNum(30)
            .addNum(50)
