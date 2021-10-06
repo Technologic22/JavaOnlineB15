@@ -9,6 +9,7 @@ package cybertekschool.day55_Oop_review_Casting_HasA;
 //Constructor to set the value, add toString method
 //add a instance field called Driver, update your constructor to set Driver as well
 
+//Encapsulate All the fields
 public class Taxi {
 
     int plateNumber;
