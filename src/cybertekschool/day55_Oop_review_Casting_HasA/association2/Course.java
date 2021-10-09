@@ -17,6 +17,7 @@ public class Course {
     }
 
     public void addManyStudents(List<String >many){
+
         studentNames.addAll(many);
     }
 

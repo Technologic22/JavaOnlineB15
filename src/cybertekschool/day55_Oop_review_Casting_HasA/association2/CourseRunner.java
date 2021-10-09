@@ -29,7 +29,7 @@ public class CourseRunner {
         java.addStudent("Ali");
         java.addStudent("Veli");
 
-        //adding more studentswith method
+        //adding more students with method
         java.addManyStudents(Arrays.asList("Gyulzar", "Muhamed"));
 
         System.out.println("java.student names = " + java.studentNames);
