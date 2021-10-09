@@ -17,8 +17,8 @@ public class CourseXRunner {
         CourseX java = new CourseX("HAS-A", myList);
         System.out.println("java before = " + java);
 
-        java.addStudent(new Student("Shatlyk", 600));
-        java.addStudent("Aman", 700);
+        java.addStudent(new Student("Shatlyk", 600));    //adding student 1st way
+        java.addStudent("Aman", 700);     //adding student 2nd way
 
         System.out.println("java after = " + java);
 
